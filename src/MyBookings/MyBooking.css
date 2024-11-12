@@ -1,0 +1,17 @@
+.my-booking-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .my-booking-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .my-booking-card p {
+    margin: 5px 0;
+  }
+  

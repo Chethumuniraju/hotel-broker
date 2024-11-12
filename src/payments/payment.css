@@ -1,0 +1,133 @@
+/* payments.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Payment Details Section */
+.payment-container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.payment-container label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.payment-container input[type="date"],
+.payment-container input[type="radio"] {
+    padding: 8px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.payment-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.payment-container button:hover {
+    background-color: #0056b3;
+}
+
+.payment-container button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Price & Summary Section */
+.price-summary {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.price-summary p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.price-summary p strong {
+    color: #333;
+}
+
+/* Selected Rooms List */
+.selected-rooms {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.selected-rooms ul {
+    list-style: none;
+    padding: 0;
+}
+
+.selected-rooms li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.selected-rooms li:last-child {
+    margin-bottom: 0;
+}
+
+/* Radio Button Styles */
+.payment-methods {
+    margin-top: 20px;
+}
+
+.payment-methods label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.payment-methods input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .payment-container {
+        padding: 15px;
+        max-width: 100%;
+        margin: 10px;
+    }
+
+    .payment-container button {
+        width: 100%;
+    }
+}
